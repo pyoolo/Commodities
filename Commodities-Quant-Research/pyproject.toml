@@ -1,0 +1,33 @@
+[project]
+name = "commodities-quant-research"
+version = "0.1.0"
+description = "Quantitative research projects in gas, power and LNG"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.4"]
+
+[tool.pytest.ini_options]
+# Each project ships a uniquely named package (never "src"), so they can all
+# be on the path at once without shadowing one another. Add one entry per
+# project directory here when a new project lands.
+pythonpath = [
+    ".",
+    "projects/01-gas-forward-curve-construction",
+]
+testpaths = ["cqr_core/tests", "projects"]
+addopts = "-q --strict-markers"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501"]
