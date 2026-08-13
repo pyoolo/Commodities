@@ -1,0 +1,15 @@
+plant:
+  efficiency: 0.50
+  emissions_intensity_tco2_per_mwh: 0.36
+
+signal:
+  lookback: 30
+  entry_z: 1.0
+
+backtest:
+  transaction_cost_per_unit: 0.05
+  annualization_factor: 252
+
+synthetic_demo:
+  periods: 500
+  seed: 42
