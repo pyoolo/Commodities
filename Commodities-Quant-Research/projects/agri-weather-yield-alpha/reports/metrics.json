@@ -1,0 +1,179 @@
+{
+  "test_years": [
+    2008,
+    2025
+  ],
+  "county_end_of_season_rmse_pct": {
+    "trend": 11.97,
+    "panel": 7.03,
+    "gbm": 6.79,
+    "blend": 6.45
+  },
+  "national_mape_pct_by_date": {
+    "Jun 15": {
+      "blend": 3.92,
+      "conditions": 5.27,
+      "gbm": 4.09,
+      "panel": 3.94,
+      "trend": 5.52
+    },
+    "Jul 01": {
+      "blend": 3.34,
+      "conditions": 4.67,
+      "gbm": 3.26,
+      "panel": 3.51,
+      "trend": 5.53
+    },
+    "Jul 15": {
+      "blend": 2.39,
+      "conditions": 4.0,
+      "gbm": 2.35,
+      "panel": 2.88,
+      "trend": 5.53
+    },
+    "Aug 01": {
+      "blend": 2.02,
+      "conditions": 3.9,
+      "gbm": 2.54,
+      "panel": 2.05,
+      "trend": 5.53
+    },
+    "Aug 15": {
+      "blend": 2.09,
+      "conditions": 3.43,
+      "gbm": 2.55,
+      "panel": 1.95,
+      "trend": 5.53
+    },
+    "Sep 01": {
+      "blend": 2.1,
+      "conditions": 3.06,
+      "gbm": 2.53,
+      "panel": 1.99,
+      "trend": 5.53
+    },
+    "Sep 15": {
+      "blend": 2.13,
+      "conditions": 3.63,
+      "gbm": 2.55,
+      "panel": 2.0,
+      "trend": 5.53
+    },
+    "Oct 01": {
+      "blend": 2.12,
+      "conditions": 4.25,
+      "gbm": 2.54,
+      "panel": 2.01,
+      "trend": 5.53
+    }
+  },
+  "usda_mape_pct": {
+    "Aug": 2.45,
+    "Sep": 1.97,
+    "Oct": 0.76,
+    "Nov": 0.5
+  },
+  "surprise_forecast": {
+    "corr_pred_vs_actual": 0.374,
+    "direction_hit_rate": 0.653,
+    "benchmark_corr": 0.115
+  },
+  "backtest_main": {
+    "USDA surprise (our model)": {
+      "sharpe": 0.52,
+      "ann_return_pct": 2.28,
+      "ann_vol_pct": 4.38,
+      "max_drawdown_pct": -4.81,
+      "positive_years": "11/18",
+      "t_stat_yearly": 2.08,
+      "n_trades": 72,
+      "hit_rate": 0.611
+    },
+    "USDA surprise (condition benchmark)": {
+      "sharpe": 0.01,
+      "ann_return_pct": 0.06,
+      "ann_vol_pct": 4.22,
+      "max_drawdown_pct": -23.58,
+      "positive_years": "7/18",
+      "t_stat_yearly": 0.05,
+      "n_trades": 72,
+      "hit_rate": 0.458
+    },
+    "Weather momentum": {
+      "sharpe": 2.05,
+      "ann_return_pct": 13.77,
+      "ann_vol_pct": 6.7,
+      "max_drawdown_pct": -8.56,
+      "positive_years": "17/18",
+      "t_stat_yearly": 6.38,
+      "n_trades": 1542,
+      "hit_rate": 0.543
+    },
+    "Combined (surprise + momentum)": {
+      "sharpe": 2.01,
+      "ann_return_pct": 16.05,
+      "ann_vol_pct": 7.99,
+      "max_drawdown_pct": -6.84,
+      "positive_years": "17/18",
+      "t_stat_yearly": 6.63
+    }
+  },
+  "backtest_null_market": {
+    "USDA surprise (our model)": {
+      "sharpe": -0.09,
+      "ann_return_pct": -0.18,
+      "ann_vol_pct": 2.1,
+      "max_drawdown_pct": -14.51,
+      "positive_years": "7/18",
+      "t_stat_yearly": -0.33,
+      "n_trades": 72,
+      "hit_rate": 0.431
+    },
+    "USDA surprise (condition benchmark)": {
+      "sharpe": -0.29,
+      "ann_return_pct": -0.7,
+      "ann_vol_pct": 2.43,
+      "max_drawdown_pct": -21.27,
+      "positive_years": "7/18",
+      "t_stat_yearly": -1.23,
+      "n_trades": 72,
+      "hit_rate": 0.444
+    },
+    "Weather momentum": {
+      "sharpe": 0.32,
+      "ann_return_pct": 3.58,
+      "ann_vol_pct": 11.35,
+      "max_drawdown_pct": -27.5,
+      "positive_years": "13/18",
+      "t_stat_yearly": 2.04,
+      "n_trades": 1542,
+      "hit_rate": 0.503
+    },
+    "Combined (surprise + momentum)": {
+      "sharpe": 0.29,
+      "ann_return_pct": 3.39,
+      "ann_vol_pct": 11.54,
+      "max_drawdown_pct": -33.56,
+      "positive_years": "11/18",
+      "t_stat_yearly": 2.25
+    }
+  },
+  "placebo_p_values": {
+    "usda_surprise": 0.007,
+    "weather_momentum": 0.0
+  },
+  "panel_coefficients_last_year": {
+    "rep_days": -0.00178,
+    "kdd_veg": 0.00277,
+    "kdd_rep": -0.01113,
+    "prcp_veg": 0.0353,
+    "prcp_veg2": -0.00689,
+    "prcp_rep": 0.0775,
+    "prcp_rep2": -0.0063,
+    "late_plant": -0.00267,
+    "sm_start": 0.02386
+  },
+  "fan_chart_year": 2017,
+  "cost_bps": 3.0,
+  "runtime_s": 4.4
+}

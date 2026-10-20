@@ -1,0 +1,64 @@
+# Default experiment. Every number that shapes the synthetic world, the models
+# or the backtest lives here, so results are reproducible from (code, config).
+
+seed: 7
+
+world:
+  n_states: 5              # think IA, IL, IN, MN, NE
+  counties_per_state: 40
+  first_year: 1995
+  last_year: 2025
+  season_start_doy: 91     # 1 April
+  season_end_doy: 304      # 31 October
+  lat_range: [37.0, 45.5]
+  lon_range: [-98.0, -84.0]
+
+forecast:                  # stands in for NOAA GEFS / ECMWF ENS
+  members: 15
+  horizon_days: 15
+  obs_latency_days: 1      # gridMET-like: yesterday's observation is available today
+
+usda:                      # how the synthetic USDA Crop Production report behaves
+  # weight on the true weather deviation in Aug, Sep, Oct, Nov reports.
+  # < 1 means early reports lean on trend (anchoring), as farmer surveys do.
+  weather_loading: [0.60, 0.75, 0.88, 0.95]
+  noise_pct: [1.8, 1.4, 1.0, 0.6]
+  report_dates: ["08-12", "09-12", "10-10", "11-09"]
+
+market:                    # how the synthetic CBOT November soybean contract trades
+  price_flexibility: 2.0   # % price move per 1% change in expected national yield
+  daily_vol_pct: 0.9       # non-fundamental noise (demand, macro, funds)
+  adjustment_speed: 0.35   # share of new weather information priced each day (1 = efficient)
+  usda_anchor: 0.60        # weight on the USDA headline / consensus instead of the efficient expectation
+  consensus_kappa: 0.50    # share of the true USDA change analysts anticipate (1 = efficient)
+  consensus_noise_pct: 0.6
+  pre_report_days: 3       # trading days before a report when consensus is priced
+
+null_market:               # identical world, efficient market: any edge should vanish
+  adjustment_speed: 1.0
+  usda_anchor: 0.0
+  consensus_kappa: 1.0
+
+models:
+  gbm:
+    max_iter: 400
+    learning_rate: 0.04
+    max_leaf_nodes: 15
+    min_samples_leaf: 40
+    l2_regularization: 1.0
+  panel_ridge_alpha: 1.0
+  blend_weights: {panel: 0.5, gbm: 0.5}
+
+backtest:
+  first_forecast_year: 2003  # walk-forward forecasts start here (2003-07 calibrate the USDA-mimic layer)
+  first_test_year: 2008      # trading P&L counted from here
+  surprise_scale_pct: 1.0    # forecast-vs-consensus gap that maps to a full position
+  momentum_lookback_days: 3
+  momentum_scale_pct: 1.0  # chosen on the small dev world (--quick), not on the test world
+  momentum_window: ["06-01", "10-15"]
+  cost_bps: 3.0              # per unit of turnover (tick + fees + slippage)
+  usda_mimic_min_years: 5    # years of history before fitting the USDA-mimic layer
+  usda_mimic_ridge: 0.003    # shrinkage toward 'USDA prints our number' (~3 years of evidence)
+  n_placebo: 300
+
+eval_dates: ["06-15", "07-01", "07-15", "08-01", "08-15", "09-01", "09-15", "10-01"]
