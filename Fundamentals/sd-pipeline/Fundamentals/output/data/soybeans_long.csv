@@ -1,0 +1,293 @@
+item,unit,period,value
+US | Area planted,M acres,2024/25,87.3
+US | Area harvested,M acres,2024/25,86.2
+US | Yield,bu/acre,2024/25,50.7
+US | Beginning stocks,M bu,2024/25,342.0
+US | Production,M bu,2024/25,4374.0
+US | Imports,M bu,2024/25,30.0
+US | TOTAL SUPPLY,M bu,2024/25,4746.0
+US | Crush,M bu,2024/25,2445.0
+US | Exports,M bu,2024/25,1892.0
+US | Seed,M bu,2024/25,70.0
+US | Residual,M bu,2024/25,14.0
+US | TOTAL USE,M bu,2024/25,4421.0
+US | ENDING STOCKS,M bu,2024/25,325.0
+US | Stocks / use,%,2024/25,0.0735127799140466
+US | Avg farm price (USDA),$/bu,2024/25,10.0
+US | Memo (MMT): Production,MMT,2024/25,119.04081516015
+US | Memo (MMT): Crush,MMT,2024/25,66.542019448232
+US | Memo (MMT): Exports,MMT,2024/25,51.4918203664846
+US | Memo (MMT): Ending stocks,MMT,2024/25,8.84505370988768
+US | Check: USDA reported ending stocks,M bu,2024/25,325.0
+US | Check: model - reported,M bu,2024/25,0.0
+US | Area planted,M acres,2025/26 Est,81.2
+US | Area harvested,M acres,2025/26 Est,80.4
+US | Yield,bu/acre,2025/26 Est,53.0
+US | Beginning stocks,M bu,2025/26 Est,325.0
+US | Production,M bu,2025/26 Est,4261.0
+US | Imports,M bu,2025/26 Est,22.0
+US | TOTAL SUPPLY,M bu,2025/26 Est,4608.0
+US | Crush,M bu,2025/26 Est,2646.0
+US | Exports,M bu,2025/26 Est,1515.0
+US | Seed,M bu,2025/26 Est,75.0
+US | Residual,M bu,2025/26 Est,57.0
+US | TOTAL USE,M bu,2025/26 Est,4293.0
+US | ENDING STOCKS,M bu,2025/26 Est,315.0
+US | Stocks / use,%,2025/26 Est,0.0733752620545073
+US | Avg farm price (USDA),$/bu,2025/26 Est,10.5
+US | Memo (MMT): Production,MMT,2025/26 Est,115.965458024097
+US | Memo (MMT): Crush,MMT,2025/26 Est,72.012344973424
+US | Memo (MMT): Exports,MMT,2025/26 Est,41.2315580630149
+US | Memo (MMT): Ending stocks,MMT,2025/26 Est,8.57289821112191
+US | Check: USDA reported ending stocks,M bu,2025/26 Est,315.0
+US | Check: model - reported,M bu,2025/26 Est,0.0
+US | Area planted,M acres,2026/27 USDA Sep,86.9
+US | Area harvested,M acres,2026/27 USDA Sep,85.9
+US | Yield,bu/acre,2026/27 USDA Sep,52.8
+US | Beginning stocks,M bu,2026/27 USDA Sep,325.0
+US | Production,M bu,2026/27 USDA Sep,4535.52
+US | Imports,M bu,2026/27 USDA Sep,25.0
+US | TOTAL SUPPLY,M bu,2026/27 USDA Sep,4885.52
+US | Crush,M bu,2026/27 USDA Sep,2780.0
+US | Exports,M bu,2026/27 USDA Sep,1685.0
+US | Seed,M bu,2026/27 USDA Sep,73.0
+US | Residual,M bu,2026/27 USDA Sep,38.0
+US | TOTAL USE,M bu,2026/27 USDA Sep,4576.0
+US | ENDING STOCKS,M bu,2026/27 USDA Sep,309.52
+US | Stocks / use,%,2026/27 USDA Sep,0.0676398601398602
+US | Avg farm price (USDA),$/bu,2026/27 USDA Sep,12.0
+US | Memo (MMT): Production,MMT,2026/27 USDA Sep,123.436670776215
+US | Memo (MMT): Crush,MMT,2026/27 USDA Sep,75.6592286568854
+US | Memo (MMT): Exports,MMT,2026/27 USDA Sep,45.8582015420331
+US | Memo (MMT): Ending stocks,MMT,2026/27 USDA Sep,8.42375699779828
+US | Check: USDA reported ending stocks,M bu,2026/27 USDA Sep,310.0
+US | Check: model - reported,M bu,2026/27 USDA Sep,-0.479999999999563
+US | Area planted,M acres,2026/27 USDA Oct,86.9
+US | Area harvested,M acres,2026/27 USDA Oct,85.9
+US | Yield,bu/acre,2026/27 USDA Oct,53.1
+US | Beginning stocks,M bu,2026/27 USDA Oct,315.0
+US | Production,M bu,2026/27 USDA Oct,4561.29
+US | Imports,M bu,2026/27 USDA Oct,25.0
+US | TOTAL SUPPLY,M bu,2026/27 USDA Oct,4901.29
+US | Crush,M bu,2026/27 USDA Oct,2780.0
+US | Exports,M bu,2026/27 USDA Oct,1695.0
+US | Seed,M bu,2026/27 USDA Oct,73.0
+US | Residual,M bu,2026/27 USDA Oct,39.0
+US | TOTAL USE,M bu,2026/27 USDA Oct,4587.0
+US | ENDING STOCKS,M bu,2026/27 USDA Oct,314.290000000001
+US | Stocks / use,%,2026/27 USDA Oct,0.0685175495966865
+US | Avg farm price (USDA),$/bu,2026/27 USDA Oct,12.0
+US | Memo (MMT): Production,MMT,2026/27 USDA Oct,124.138015496534
+US | Memo (MMT): Crush,MMT,2026/27 USDA Oct,75.6592286568854
+US | Memo (MMT): Exports,MMT,2026/27 USDA Oct,46.1303570407988
+US | Memo (MMT): Ending stocks,MMT,2026/27 USDA Oct,8.55357517070956
+US | Check: USDA reported ending stocks,M bu,2026/27 USDA Oct,315.0
+US | Check: model - reported,M bu,2026/27 USDA Oct,-0.709999999999127
+US | Area planted,M acres,2026/27 HOUSE,86.9
+US | Area harvested,M acres,2026/27 HOUSE,85.9
+US | Yield,bu/acre,2026/27 HOUSE,52.9
+US | Beginning stocks,M bu,2026/27 HOUSE,315.0
+US | Production,M bu,2026/27 HOUSE,4544.11
+US | Imports,M bu,2026/27 HOUSE,25.0
+US | TOTAL SUPPLY,M bu,2026/27 HOUSE,4884.11
+US | Crush,M bu,2026/27 HOUSE,2820.0
+US | Exports,M bu,2026/27 HOUSE,1745.0
+US | Seed,M bu,2026/27 HOUSE,73.0
+US | Residual,M bu,2026/27 HOUSE,39.0
+US | TOTAL USE,M bu,2026/27 HOUSE,4677.0
+US | ENDING STOCKS,M bu,2026/27 HOUSE,207.110000000001
+US | Stocks / use,%,2026/27 HOUSE,0.0442826598246741
+US | Avg farm price (USDA),$/bu,2026/27 HOUSE,11.5730456674614
+US | Memo (MMT): Production,MMT,2026/27 HOUSE,123.670452349655
+US | Memo (MMT): Crush,MMT,2026/27 HOUSE,76.7478506519485
+US | Memo (MMT): Exports,MMT,2026/27 HOUSE,47.4911345346277
+US | Memo (MMT): Ending stocks,MMT,2026/27 HOUSE,5.63661253493798
+World | United States | Beg stocks,MMT,2025/26 - USDA (Oct-26),8.84
+World | Brazil | Beg stocks,MMT,2025/26 - USDA (Oct-26),37.688
+World | Argentina | Beg stocks,MMT,2025/26 - USDA (Oct-26),24.671
+World | Paraguay | Beg stocks,MMT,2025/26 - USDA (Oct-26),0.0
+World | China | Beg stocks,MMT,2025/26 - USDA (Oct-26),44.489
+World | Rest of World | Beg stocks,MMT,2025/26 - USDA (Oct-26),10.277
+World | WORLD | Beg stocks,MMT,2025/26 - USDA (Oct-26),125.965
+World | United States | Beg stocks,MMT,2026/27 - USDA (Oct-26),8.577
+World | Brazil | Beg stocks,MMT,2026/27 - USDA (Oct-26),37.881
+World | Argentina | Beg stocks,MMT,2026/27 - USDA (Oct-26),23.671
+World | Paraguay | Beg stocks,MMT,2026/27 - USDA (Oct-26),0.0
+World | China | Beg stocks,MMT,2026/27 - USDA (Oct-26),44.359
+World | Rest of World | Beg stocks,MMT,2026/27 - USDA (Oct-26),10.439
+World | WORLD | Beg stocks,MMT,2026/27 - USDA (Oct-26),124.927
+World | United States | Beg stocks,MMT,2026/27 - HOUSE VIEW,8.577
+World | Brazil | Beg stocks,MMT,2026/27 - HOUSE VIEW,37.881
+World | Argentina | Beg stocks,MMT,2026/27 - HOUSE VIEW,23.671
+World | Paraguay | Beg stocks,MMT,2026/27 - HOUSE VIEW,0.0
+World | China | Beg stocks,MMT,2026/27 - HOUSE VIEW,44.359
+World | Rest of World | Beg stocks,MMT,2026/27 - HOUSE VIEW,10.439
+World | WORLD | Beg stocks,MMT,2026/27 - HOUSE VIEW,124.927
+World | United States | Production,MMT,2025/26 - USDA (Oct-26),115.966
+World | Brazil | Production,MMT,2025/26 - USDA (Oct-26),180.5
+World | Argentina | Production,MMT,2025/26 - USDA (Oct-26),49.3
+World | Paraguay | Production,MMT,2025/26 - USDA (Oct-26),12.1
+World | China | Production,MMT,2025/26 - USDA (Oct-26),20.9
+World | Rest of World | Production,MMT,2025/26 - USDA (Oct-26),50.419
+World | WORLD | Production,MMT,2025/26 - USDA (Oct-26),429.185
+World | United States | Production,MMT,2026/27 - USDA (Oct-26),124.147
+World | Brazil | Production,MMT,2026/27 - USDA (Oct-26),186.0
+World | Argentina | Production,MMT,2026/27 - USDA (Oct-26),50.0
+World | Paraguay | Production,MMT,2026/27 - USDA (Oct-26),11.1
+World | China | Production,MMT,2026/27 - USDA (Oct-26),21.0
+World | Rest of World | Production,MMT,2026/27 - USDA (Oct-26),50.453
+World | WORLD | Production,MMT,2026/27 - USDA (Oct-26),442.7
+World | United States | Production,MMT,2026/27 - HOUSE VIEW,123.670452349655
+World | Brazil | Production,MMT,2026/27 - HOUSE VIEW,186.0
+World | Argentina | Production,MMT,2026/27 - HOUSE VIEW,50.0
+World | Paraguay | Production,MMT,2026/27 - HOUSE VIEW,11.1
+World | China | Production,MMT,2026/27 - HOUSE VIEW,21.0
+World | Rest of World | Production,MMT,2026/27 - HOUSE VIEW,50.453
+World | WORLD | Production,MMT,2026/27 - HOUSE VIEW,442.223452349655
+World | United States | Imports,MMT,2025/26 - USDA (Oct-26),0.598742097284705
+World | Brazil | Imports,MMT,2025/26 - USDA (Oct-26),0.0
+World | Argentina | Imports,MMT,2025/26 - USDA (Oct-26),7.5
+World | Paraguay | Imports,MMT,2025/26 - USDA (Oct-26),0.0
+World | China | Imports,MMT,2025/26 - USDA (Oct-26),113.0
+World | Rest of World | Imports,MMT,2025/26 - USDA (Oct-26),67.4282579027153
+World | WORLD | Imports,MMT,2025/26 - USDA (Oct-26),188.527
+World | United States | Imports,MMT,2026/27 - USDA (Oct-26),0.680388746914437
+World | Brazil | Imports,MMT,2026/27 - USDA (Oct-26),0.0
+World | Argentina | Imports,MMT,2026/27 - USDA (Oct-26),6.5
+World | Paraguay | Imports,MMT,2026/27 - USDA (Oct-26),0.0
+World | China | Imports,MMT,2026/27 - USDA (Oct-26),115.0
+World | Rest of World | Imports,MMT,2026/27 - USDA (Oct-26),68.6426112530856
+World | WORLD | Imports,MMT,2026/27 - USDA (Oct-26),190.823
+World | United States | Imports,MMT,2026/27 - HOUSE VIEW,0.680388746914437
+World | Brazil | Imports,MMT,2026/27 - HOUSE VIEW,0.0
+World | Argentina | Imports,MMT,2026/27 - HOUSE VIEW,6.5
+World | Paraguay | Imports,MMT,2026/27 - HOUSE VIEW,0.0
+World | China | Imports,MMT,2026/27 - HOUSE VIEW,115.0
+World | Rest of World | Imports,MMT,2026/27 - HOUSE VIEW,69.3231785203994
+World | WORLD | Imports,MMT,2026/27 - HOUSE VIEW,191.503567267314
+World | United States | Crush,MMT,2025/26 - USDA (Oct-26),72.003
+World | Brazil | Crush,MMT,2025/26 - USDA (Oct-26),62.5
+World | Argentina | Crush,MMT,2025/26 - USDA (Oct-26),43.0
+World | Paraguay | Crush,MMT,2025/26 - USDA (Oct-26),3.8
+World | China | Crush,MMT,2025/26 - USDA (Oct-26),109.0
+World | Rest of World | Crush,MMT,2025/26 - USDA (Oct-26),85.535
+World | WORLD | Crush,MMT,2025/26 - USDA (Oct-26),375.838
+World | United States | Crush,MMT,2026/27 - USDA (Oct-26),75.659
+World | Brazil | Crush,MMT,2026/27 - USDA (Oct-26),65.0
+World | Argentina | Crush,MMT,2026/27 - USDA (Oct-26),43.5
+World | Paraguay | Crush,MMT,2026/27 - USDA (Oct-26),3.6
+World | China | Crush,MMT,2026/27 - USDA (Oct-26),111.0
+World | Rest of World | Crush,MMT,2026/27 - USDA (Oct-26),86.955
+World | WORLD | Crush,MMT,2026/27 - USDA (Oct-26),385.714
+World | United States | Crush,MMT,2026/27 - HOUSE VIEW,76.7478506519485
+World | Brazil | Crush,MMT,2026/27 - HOUSE VIEW,65.0
+World | Argentina | Crush,MMT,2026/27 - HOUSE VIEW,43.5
+World | Paraguay | Crush,MMT,2026/27 - HOUSE VIEW,3.6
+World | China | Crush,MMT,2026/27 - HOUSE VIEW,111.0
+World | Rest of World | Crush,MMT,2026/27 - HOUSE VIEW,86.955
+World | WORLD | Crush,MMT,2026/27 - HOUSE VIEW,386.802850651948
+World | United States | Other use (impl.),MMT,2025/26 - USDA (Oct-26),3.58174209728469
+World | Brazil | Other use (impl.),MMT,2025/26 - USDA (Oct-26),3.34699999999999
+World | Argentina | Other use (impl.),MMT,2025/26 - USDA (Oct-26),5.90000000000001
+World | Paraguay | Other use (impl.),MMT,2025/26 - USDA (Oct-26),0.100000000000001
+World | China | Other use (impl.),MMT,2025/26 - USDA (Oct-26),25.03
+World | Rest of World | Other use (impl.),MMT,2025/26 - USDA (Oct-26),18.5302579027153
+World | WORLD | Other use (impl.),MMT,2025/26 - USDA (Oct-26),56.4889999999999
+World | United States | Other use (impl.),MMT,2026/27 - USDA (Oct-26),3.04338874691446
+World | Brazil | Other use (impl.),MMT,2026/27 - USDA (Oct-26),3.6
+World | Argentina | Other use (impl.),MMT,2026/27 - USDA (Oct-26),6.14999999999999
+World | Paraguay | Other use (impl.),MMT,2026/27 - USDA (Oct-26),0.15
+World | China | Other use (impl.),MMT,2026/27 - USDA (Oct-26),25.1
+World | Rest of World | Other use (impl.),MMT,2026/27 - USDA (Oct-26),18.4196112530856
+World | WORLD | Other use (impl.),MMT,2026/27 - USDA (Oct-26),56.4629999999999
+World | United States | Other use (impl.),MMT,2026/27 - HOUSE VIEW,3.0522433750548
+World | Brazil | Other use (impl.),MMT,2026/27 - HOUSE VIEW,3.6
+World | Argentina | Other use (impl.),MMT,2026/27 - HOUSE VIEW,6.14999999999999
+World | Paraguay | Other use (impl.),MMT,2026/27 - HOUSE VIEW,0.15
+World | China | Other use (impl.),MMT,2026/27 - HOUSE VIEW,25.1
+World | Rest of World | Other use (impl.),MMT,2026/27 - HOUSE VIEW,18.4196112530856
+World | WORLD | Other use (impl.),MMT,2026/27 - HOUSE VIEW,56.4718546281404
+World | United States | Total dom. use,MMT,2025/26 - USDA (Oct-26),75.5847420972847
+World | Brazil | Total dom. use,MMT,2025/26 - USDA (Oct-26),65.847
+World | Argentina | Total dom. use,MMT,2025/26 - USDA (Oct-26),48.9
+World | Paraguay | Total dom. use,MMT,2025/26 - USDA (Oct-26),3.9
+World | China | Total dom. use,MMT,2025/26 - USDA (Oct-26),134.03
+World | Rest of World | Total dom. use,MMT,2025/26 - USDA (Oct-26),104.065257902715
+World | WORLD | Total dom. use,MMT,2025/26 - USDA (Oct-26),432.327
+World | United States | Total dom. use,MMT,2026/27 - USDA (Oct-26),78.7023887469145
+World | Brazil | Total dom. use,MMT,2026/27 - USDA (Oct-26),68.6
+World | Argentina | Total dom. use,MMT,2026/27 - USDA (Oct-26),49.65
+World | Paraguay | Total dom. use,MMT,2026/27 - USDA (Oct-26),3.75
+World | China | Total dom. use,MMT,2026/27 - USDA (Oct-26),136.1
+World | Rest of World | Total dom. use,MMT,2026/27 - USDA (Oct-26),105.374611253086
+World | WORLD | Total dom. use,MMT,2026/27 - USDA (Oct-26),442.177
+World | United States | Total dom. use,MMT,2026/27 - HOUSE VIEW,79.8000940270033
+World | Brazil | Total dom. use,MMT,2026/27 - HOUSE VIEW,68.6
+World | Argentina | Total dom. use,MMT,2026/27 - HOUSE VIEW,49.65
+World | Paraguay | Total dom. use,MMT,2026/27 - HOUSE VIEW,3.75
+World | China | Total dom. use,MMT,2026/27 - HOUSE VIEW,136.1
+World | Rest of World | Total dom. use,MMT,2026/27 - HOUSE VIEW,105.374611253086
+World | WORLD | Total dom. use,MMT,2026/27 - HOUSE VIEW,443.274705280089
+World | United States | Exports,MMT,2025/26 - USDA (Oct-26),41.243
+World | Brazil | Exports,MMT,2025/26 - USDA (Oct-26),114.46
+World | Argentina | Exports,MMT,2025/26 - USDA (Oct-26),8.9
+World | Paraguay | Exports,MMT,2025/26 - USDA (Oct-26),8.2
+World | China | Exports,MMT,2025/26 - USDA (Oct-26),0.0
+World | Rest of World | Exports,MMT,2025/26 - USDA (Oct-26),13.62
+World | WORLD | Exports,MMT,2025/26 - USDA (Oct-26),186.423
+World | United States | Exports,MMT,2026/27 - USDA (Oct-26),46.13
+World | Brazil | Exports,MMT,2026/27 - USDA (Oct-26),118.0
+World | Argentina | Exports,MMT,2026/27 - USDA (Oct-26),6.45
+World | Paraguay | Exports,MMT,2026/27 - USDA (Oct-26),7.35
+World | China | Exports,MMT,2026/27 - USDA (Oct-26),0.0
+World | Rest of World | Exports,MMT,2026/27 - USDA (Oct-26),14.065
+World | WORLD | Exports,MMT,2026/27 - USDA (Oct-26),191.995
+World | United States | Exports,MMT,2026/27 - HOUSE VIEW,47.4911345346277
+World | Brazil | Exports,MMT,2026/27 - HOUSE VIEW,117.319432732686
+World | Argentina | Exports,MMT,2026/27 - HOUSE VIEW,6.45
+World | Paraguay | Exports,MMT,2026/27 - HOUSE VIEW,7.35
+World | China | Exports,MMT,2026/27 - HOUSE VIEW,0.0
+World | Rest of World | Exports,MMT,2026/27 - HOUSE VIEW,14.065
+World | WORLD | Exports,MMT,2026/27 - HOUSE VIEW,192.675567267314
+World | United States | End stocks,MMT,2025/26 - USDA (Oct-26),8.577
+World | Brazil | End stocks,MMT,2025/26 - USDA (Oct-26),37.881
+World | Argentina | End stocks,MMT,2025/26 - USDA (Oct-26),23.671
+World | Paraguay | End stocks,MMT,2025/26 - USDA (Oct-26),0.0
+World | China | End stocks,MMT,2025/26 - USDA (Oct-26),44.359
+World | Rest of World | End stocks,MMT,2025/26 - USDA (Oct-26),10.439
+World | WORLD | End stocks,MMT,2025/26 - USDA (Oct-26),124.927
+World | United States | End stocks,MMT,2026/27 - USDA (Oct-26),8.572
+World | Brazil | End stocks,MMT,2026/27 - USDA (Oct-26),37.281
+World | Argentina | End stocks,MMT,2026/27 - USDA (Oct-26),24.071
+World | Paraguay | End stocks,MMT,2026/27 - USDA (Oct-26),0.0
+World | China | End stocks,MMT,2026/27 - USDA (Oct-26),44.259
+World | Rest of World | End stocks,MMT,2026/27 - USDA (Oct-26),10.095
+World | WORLD | End stocks,MMT,2026/27 - USDA (Oct-26),124.278
+World | United States | End stocks,MMT,2026/27 - HOUSE VIEW,5.63661253493798
+World | Brazil | End stocks,MMT,2026/27 - HOUSE VIEW,37.9615672673139
+World | Argentina | End stocks,MMT,2026/27 - HOUSE VIEW,24.071
+World | Paraguay | End stocks,MMT,2026/27 - HOUSE VIEW,0.0
+World | China | End stocks,MMT,2026/27 - HOUSE VIEW,44.259
+World | Rest of World | End stocks,MMT,2026/27 - HOUSE VIEW,10.7755672673139
+World | WORLD | End stocks,MMT,2026/27 - HOUSE VIEW,122.703747069566
+World | United States | Stocks/use,MMT,2025/26 - USDA (Oct-26),0.0734157816116806
+World | Brazil | Stocks/use,MMT,2025/26 - USDA (Oct-26),0.210091676973162
+World | Argentina | Stocks/use,MMT,2025/26 - USDA (Oct-26),0.409532871972318
+World | Paraguay | Stocks/use,MMT,2025/26 - USDA (Oct-26),0.0
+World | China | Stocks/use,MMT,2025/26 - USDA (Oct-26),0.330963217190181
+World | Rest of World | Stocks/use,MMT,2025/26 - USDA (Oct-26),0.0887026989279271
+World | WORLD | Stocks/use,MMT,2025/26 - USDA (Oct-26),0.201902222222222
+World | United States | Stocks/use,MMT,2026/27 - USDA (Oct-26),0.0686680763385767
+World | Brazil | Stocks/use,MMT,2026/27 - USDA (Oct-26),0.199790996784566
+World | Argentina | Stocks/use,MMT,2026/27 - USDA (Oct-26),0.429073083778966
+World | Paraguay | Stocks/use,MMT,2026/27 - USDA (Oct-26),0.0
+World | China | Stocks/use,MMT,2026/27 - USDA (Oct-26),0.325194709772226
+World | Rest of World | Stocks/use,MMT,2026/27 - USDA (Oct-26),0.0845196990687562
+World | WORLD | Stocks/use,MMT,2026/27 - USDA (Oct-26),0.195968916949976
+World | United States | Stocks/use,MMT,2026/27 - HOUSE VIEW,0.0442812328754364
+World | Brazil | Stocks/use,MMT,2026/27 - HOUSE VIEW,0.204182890993943
+World | Argentina | Stocks/use,MMT,2026/27 - HOUSE VIEW,0.429073083778966
+World | Paraguay | Stocks/use,MMT,2026/27 - HOUSE VIEW,0.0
+World | China | Stocks/use,MMT,2026/27 - HOUSE VIEW,0.325194709772226
+World | Rest of World | Stocks/use,MMT,2026/27 - HOUSE VIEW,0.0902177021028735
+World | WORLD | Stocks/use,MMT,2026/27 - HOUSE VIEW,0.192945505908907

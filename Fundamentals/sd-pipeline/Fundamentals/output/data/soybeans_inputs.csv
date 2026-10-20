@@ -1,0 +1,26 @@
+Parameter,Value,Unit,USDA Oct-26,Source / rationale
+Bushels per metric ton (soybeans),36.7437,bu/MT,,Standard conversion (60 lb/bu). [S9]
+Area harvested,85.9,M acres,85.9,Unchanged vs USDA. [S1]
+Yield,52.9,bu/acre,53.1,House yield model (trend 53.5 - condition adj -0.6). See soy_yield_model.py. [S1][S6]
+Imports,25.0,M bu,25.0,USDA. [S1]
+Crush,2820.0,M bu,2780.0,Board crush margin ~$2.45/bu (see Crush tab) -> plants at capacity; +40 mb vs USDA. [S1][S5]
+Exports,1745.0,M bu,1695.0,"China buying ahead of USDA pace: commitments +89% y/y, 10.8 MMT unshipped to China. +50 mb vs USDA. [S1][S7]"
+Seed,73.0,M bu,73.0,USDA. [S1]
+Residual,39.0,M bu,39.0,USDA. [S1]
+Brazil production 2026/27,186.0,MMT,186.0,Held at USDA; CONAB first est. 181.6 - downside risk to USDA. [S2][S8]
+Brazil: share of prod. change exported,0.8,ratio,,Assumption: ~80% of marginal Brazil crop goes to export (crush capacity-bound).
+Brazil exports displaced per t extra US exports,0.5,ratio,,Assumption: half of extra US sales to China displace Brazilian origin.
+Argentina production 2026/27,50.0,MMT,50.0,Held at USDA. [S2]
+China imports 2026/27,115.0,MMT,115.0,Held at USDA; CASDE (May) 95.5 MMT - key disagreement. [S2][S10]
+China: crush pass-through of import change,1.0,ratio,,Assumption: incremental imports crushed 1:1.
+Soybeans Nov-26 (ZSX26),1303.0,c/bu,,6-Oct-26 settle (Brownfield). UPDATE. [S4]
+Soybeans Jan-27 (ZSF27),1320.0,c/bu,,Estimate (Nov + ~17c). UPDATE from CQG.
+Soybeans Mar-27 (ZSH27),1330.0,c/bu,,Estimate (Nov + ~27c on 5-Oct). UPDATE from CQG.
+Soybean meal Dec-26 (ZMZ26),354.8,$/short ton,,6-Oct-26 settle. [S4]
+Soybean oil Dec-26 (ZLZ26),69.91,c/lb,,6-Oct-26 settle. [S4]
+CBOT soybean storage rate,0.165,c/bu/day,,VERIFY vs current CBOT shipping-certificate storage rate.
+Financing rate,0.05,% p.a.,,Assumption: SOFR ~3.9% + ~110bp funding spread. [S11]
+Days Nov-26 -> Jan-27,61.0,days,,Mid-month to mid-month.
+Days Jan-27 -> Mar-27,59.0,days,,Mid-month to mid-month.
+Meal yield,44.0,lb/bu,,Board crush convention (48% protein meal).
+Oil yield,11.0,lb/bu,,Board crush convention.

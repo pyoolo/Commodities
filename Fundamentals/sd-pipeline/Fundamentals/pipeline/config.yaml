@@ -1,0 +1,66 @@
+# S&D pipeline configuration
+# Paths are relative to the Fundamentals/ folder.
+#
+# To add a new commodity:
+#   1. put the workbook under energy/, metals/ or agriculture/ with a STABLE file name
+#      (no dates in the name: git keeps the history, the pipeline compares versions)
+#   2. write an extractor in pipeline/extractors/<name>.py (copy oil.py as a template)
+#   3. add an entry below
+
+output_dir: output
+build_dir: build          # recalculated copies (git-ignored)
+
+commodities:
+  oil:
+    title: "Crude oil – global balance"
+    workbook: energy/oil/Oil_SD.xlsx
+    extractor: oil
+    # Revisions smaller than this (in the item's unit) are ignored in the report
+    revision_threshold: 0.05
+
+  soybeans:
+    title: "Soybeans – US & world balance 2026/27"
+    workbook: agriculture/soybeans/Soybean_SD.xlsx
+    extractor: soybeans
+    revision_threshold: 0.5
+
+# ---------------------------------------------------------------------------
+# Automatic data updates (python -m pipeline.run --update)
+# Each updater only writes into INPUT cells (blue cells), never formulas.
+# A value moving more than max_change_pct vs the current cell is NOT written
+# (it usually means a wrong series mapping) and is reported as a warning.
+# ---------------------------------------------------------------------------
+updates:
+  eia_steo:
+    enabled: true
+    workbook: energy/oil/Oil_SD.xlsx
+    sheet: EIA_Data
+    api_key_env: EIA_API_KEY          # GitHub secret
+    max_change_pct: 15
+    # row label in column A  ->  EIA STEO series id
+    # Check ids at https://www.eia.gov/opendata/browser/steo before relying on them.
+    series:
+      "World production": PAPR_WORLD
+      "OPEC total": PAPR_OPEC
+      "  OPEC crude": COPR_OPEC
+      "Non-OPEC total": PAPR_NONOPEC
+      "World consumption": PATC_WORLD
+      "OECD total": PATC_OECD
+      "Non-OECD total": PATC_NON_OECD
+      "OECD commercial inventories": PASC_OECD_T3
+      "Brent spot": BREPUUS
+      "WTI spot": WTIPUUS
+
+  futures:
+    enabled: true
+    workbook: agriculture/soybeans/Soybean_SD.xlsx
+    sheet: Inputs
+    max_change_pct: 20
+    # row label in column A -> Yahoo Finance ticker, unit conversion factor
+    # Yahoo quotes soybeans in c/bu, meal in $/short ton, oil in c/lb (same units as the sheet).
+    tickers:
+      "Soybeans Nov-26 (ZSX26)": {ticker: ZSX26.CBT, factor: 1}
+      "Soybeans Jan-27 (ZSF27)": {ticker: ZSF27.CBT, factor: 1}
+      "Soybeans Mar-27 (ZSH27)": {ticker: ZSH27.CBT, factor: 1}
+      "Soybean meal Dec-26 (ZMZ26)": {ticker: ZMZ26.CBT, factor: 1}
+      "Soybean oil Dec-26 (ZLZ26)": {ticker: ZLZ26.CBT, factor: 1}
